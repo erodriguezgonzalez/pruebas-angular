@@ -1,0 +1,10 @@
+
+<div class="w-full ">
+    <div class="rounded border p-1">
+        <img class="rounded max-w-full h-auto" src="{{ getImageName() }}" alt="{{alt}}">
+    </div>
+    
+    <h1 class="font-roboto {{sizeFontHeader}}">{{encabezado}}</h1>
+    <p class="font-roboto">{{parrafo}}</p>
+    <button class="bg-lime-500 rounded p-3 w-full text-white text-2xl" (click)="cambiarFoto()">Cambiar</button>
+</div>
