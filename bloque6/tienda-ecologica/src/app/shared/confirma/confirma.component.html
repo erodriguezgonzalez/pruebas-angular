@@ -1,0 +1,23 @@
+<div class="container bg-light rounded border border-success">
+    <div class="row">
+        <div class="col display-7 mx-4 my-4 text-start">
+            {{mensaje}}
+        </div>
+        <div class="col-1 mt-2">
+            <i class="fa fa-window-close float-right"
+               (click)="close()"></i>
+        </div>        
+    </div>
+    <div class="row my-2">
+        <div class="col">
+            <button class="btn btn-outline-secondary  " (click)="aceptar()">
+                <span>Aceptar</span>
+            </button>    
+        </div>
+        <div class="col">
+            <button class="btn btn-outline-secondary  " (click)="cancelar()">
+                <span>Cancelar</span>
+            </button>
+        </div>
+    </div>
+</div>      

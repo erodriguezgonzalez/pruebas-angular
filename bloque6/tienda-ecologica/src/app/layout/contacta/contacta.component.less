@@ -1,0 +1,35 @@
+// Pregunta 10. ¿Por qué sustituimos /?????? para que establecer los estilos del host ?
+// ?????????? {
+        display: block;
+    .fondo {
+        height           : 70vh;
+        background-repeat: no-repeat;        
+        background-image : url("../../../assets/imagenes/bosque.png");
+        background-size  : cover;
+
+        .card {
+            padding                : 1rem;
+            background             : rgba(255, 255, 255, .7) !important;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter        : blur(10px);
+            border-radius          : 1rem;
+        }
+
+        .noresize {
+            resize: none;
+        }
+
+        .input-group-prepend {
+            flex: 0 0 20%;
+        }
+    }
+
+    .ng-valid[required],
+    .ng-valid.required {
+        border-left: 5px solid #42A948;
+    }
+    .ng-invalid:not(form) {
+        border-left: 5px solid #a94442;
+    }
+
+}

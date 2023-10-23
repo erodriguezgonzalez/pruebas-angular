@@ -1,0 +1,60 @@
+:host {
+    display: block;
+
+    .imagen-producto {
+        width: 120px;
+    }
+
+    .etiqueta {
+        position   : absolute;
+        margin-left: 45px;
+        margin-top : -40px;
+        text-align : center;
+    }
+
+    .vc {
+        background: rgba(207, 33, 29);
+        color     : #fff;
+        padding   : 6.5px 18px;
+        position  : relative;
+    }
+
+    .vc:after {
+        width              : 0;
+        height             : 0;
+        border             : 17px solid transparent;
+        position           : absolute;
+        content            : "";
+        border-bottom-color: rgba(207, 33, 29);
+        right              : -15px;
+        top                : 0px;
+        border-left-color  : rgba(207, 33, 29);
+    }
+
+    .vc:before {
+        width            : 0;
+        height           : 0;
+        border           : 17px solid transparent;
+        position         : absolute;
+        content          : "";
+        border-top-color : rgba(207, 33, 29);
+        right            : -15px;
+        top              : 0px;
+        border-left-color: rgba(207, 33, 29);
+    }
+
+     
+
+    .gap:hover {
+        background: rgba(0, 0, 0, 0.075);
+    }
+
+    .of {
+        background-image: url("../../../assets/imagenes/oferta.png");
+        background-position: right;
+        background-repeat: no-repeat; 
+
+
+    }
+
+}
